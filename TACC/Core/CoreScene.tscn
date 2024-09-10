@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://k0gkvbalqsue"]
+
+[ext_resource type="Script" path="res://TACC/Core/CoreSystem.gd" id="1_tmty7"]
+[ext_resource type="PackedScene" uid="uid://vg2nh2sv1d5i" path="res://UI/MainMenuUI.tscn" id="2_q51qw"]
+
+[node name="Core" type="Node2D"]
+script = ExtResource("1_tmty7")
+
+[node name="MainMenuUI" parent="." instance=ExtResource("2_q51qw")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 563.0
+offset_top = 307.0
+offset_right = 563.0
+offset_bottom = 307.0
+grow_horizontal = 1
+grow_vertical = 1

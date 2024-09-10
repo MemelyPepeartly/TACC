@@ -1,0 +1,14 @@
+{
+	"cutscenes": [
+		{
+			"name": "Intro",
+			"animation": "res://TACC/Components/CutsceneManager/Resources/Animations/intro.anim",
+			"dialogue": "res://TACC/Components/CutsceneManager/Resources/Dialogues/intro.json"
+		},
+		{
+			"name": "Chapter1_Start",
+			"animation": "res://TACC/Components/CutsceneManager/Resources/Animations/chapter1_start.anim",
+			"dialogue": "res://TACC/Components/CutsceneManager/Resources/Dialogues/chapter1_start.json"
+		}
+	]
+}
